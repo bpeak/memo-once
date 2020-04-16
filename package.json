@@ -1,0 +1,10 @@
+{
+  "name": "memo-once",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rollup src/index.js --file dist/index.js --format umd --name memoOnce --watch",
+    "build": "rollup src/index.js --file dist/index.js --format umd --name memoOnce"
+  }
+}
